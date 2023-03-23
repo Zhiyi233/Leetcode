@@ -1,11 +1,17 @@
-package leetcode_medium;
+package leetcode_exer;
 
 /**
  * @author kevin
  * @create 2023-03-23-11:05
  */
 public class ContainerMostWater {
-    public int maxArea(int[] height) {
+    public static void main(String[] args) {
+        int[] arr = new int[]{1,8,6,2,5,4,8,3,7};
+        int maxValue = maxArea(arr);
+        System.out.println(arr.toString());
+        System.out.println(maxValue);
+    }
+    public static int maxArea(int[] height) {
         /**
          *  暴力算法要超时，虽然可以就是接出来最大的容量
          *  从最左边的板子开始依次求面积，每次更新最大值
