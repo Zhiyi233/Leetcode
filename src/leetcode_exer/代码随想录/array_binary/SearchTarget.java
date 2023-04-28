@@ -1,4 +1,4 @@
-package 代码随想录.array_binary;
+package leetcode_exer.代码随想录.array_binary;
 
 import org.junit.Test;
 

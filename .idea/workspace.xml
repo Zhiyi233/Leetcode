@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83491ea5-a6ba-448e-b48b-c206a947c462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录_binary/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录_binary/SearchTarget.java" afterDir="false" />
+    <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array_binary/SearchFLPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/top50/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/top50/LongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array_binary/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array_binary/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array_binary/SearchTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array_binary/SearchTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="EASY" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2NV7QKwX06vZ4MyvsK3Ts5V9efQ" />
+  <component name="ProjectId" id="2P2rwHEkQx6ETAtiSmDgV7KEy0V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,44 +43,22 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.21363038" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.SearchTarget.test">
-    <configuration name="ContainerMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top50.ContainerMostWater" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top50.LongestSubstring" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SearchFLPosition.testFist">
     <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="代码随想录.array_binary.SearchInsertPosition" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchInsertPosition" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,30 +66,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top50.TwoSum" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTarget.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFLPosition.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="代码随想录.array_binary" />
-      <option name="MAIN_CLASS_NAME" value="代码随想录.array_binary.SearchTarget" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchFLPosition" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFLPosition.testFist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchFLPosition" />
+      <option name="METHOD_NAME" value="testFist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,24 +111,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTarget.test" />
+        <item itemvalue="JUnit.SearchFLPosition.testFist" />
+        <item itemvalue="JUnit.SearchFLPosition.test" />
         <item itemvalue="Application.SearchInsertPosition" />
-        <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ContainerMostWater" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83491ea5-a6ba-448e-b48b-c206a947c462" name="Default Changelist" comment="" />
-      <created>1679737378630</created>
+      <changelist id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="" />
+      <created>1682666254769</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679737378630</updated>
+      <updated>1682666254769</updated>
+      <workItem from="1682666256385" duration="3537000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -145,6 +142,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
