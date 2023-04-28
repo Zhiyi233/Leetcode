@@ -52,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.21363038" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.SearchFLPosition.testFist">
+  <component name="RunManager" selected="JUnit.SearchTarget.test">
     <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchInsertPosition" />
       <module name="Leetcode" />
@@ -109,8 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTarget.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchTarget" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTarget.test" />
         <item itemvalue="JUnit.SearchFLPosition.testFist" />
         <item itemvalue="JUnit.SearchFLPosition.test" />
         <item itemvalue="Application.SearchInsertPosition" />
@@ -125,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682666254769</updated>
-      <workItem from="1682666256385" duration="3537000" />
+      <workItem from="1682666256385" duration="4402000" />
     </task>
     <servers />
   </component>
