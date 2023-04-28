@@ -47,6 +47,13 @@ public class SearchInsertPosition {
                 return mid;
             }
         }
+        /*
+        // 分别处理如下四种情况
+        // 目标值在数组所有元素之前 [0,0)
+        // 目标值等于数组中某一个元素 return middle
+        // 目标值插入数组中的位置 [left, right]，return  right + 1
+        // 目标值在数组所有元素之后的情况 [left, right]， 因为是右闭区间，所以 return right + 1
+         */
         return right+1;
     }
 
