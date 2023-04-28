@@ -1,8 +1,6 @@
-package 代码随想录_binary;
+package 代码随想录.array_binary;
 
 import org.junit.Test;
-
-import java.lang.annotation.Target;
 
 /**
  * @author kevin

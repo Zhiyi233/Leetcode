@@ -73,11 +73,11 @@
       </method>
     </configuration>
     <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="代码随想录_binary.SearchInsertPosition" />
+      <option name="MAIN_CLASS_NAME" value="代码随想录.array_binary.SearchInsertPosition" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="代码随想录_binary.*" />
+          <option name="PATTERN" value="代码随想录.array_binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="代码随想录_binary.*" />
+          <option name="PATTERN" value="代码随想录.array_binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="代码随想录_binary" />
-      <option name="MAIN_CLASS_NAME" value="代码随想录_binary.SearchTarget" />
+      <option name="PACKAGE_NAME" value="代码随想录.array_binary" />
+      <option name="MAIN_CLASS_NAME" value="代码随想录.array_binary.SearchTarget" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

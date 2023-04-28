@@ -1,4 +1,4 @@
-package 代码随想录_binary;
+package 代码随想录.array_binary;
 
 /**
  * @author kevin
