@@ -47,11 +47,11 @@
   </component>
   <component name="RunManager" selected="Application.RemoveElement">
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.RemoveElement" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.RemoveElement" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,11 +60,11 @@
       </method>
     </configuration>
     <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchInsertPosition" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchInsertPosition" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,13 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,12 +89,12 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchFLPosition" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchFLPosition" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -103,12 +105,12 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchFLPosition" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchFLPosition" />
       <option name="METHOD_NAME" value="testFist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -119,12 +121,12 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array_binary.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array_binary" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array_binary.SearchTarget" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchTarget" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -152,6 +154,8 @@
       <workItem from="1682666256385" duration="4703000" />
       <workItem from="1682785110785" duration="683000" />
       <workItem from="1682906585792" duration="318000" />
+      <workItem from="1682949350607" duration="819000" />
+      <workItem from="1682998129089" duration="621000" />
     </task>
     <servers />
   </component>

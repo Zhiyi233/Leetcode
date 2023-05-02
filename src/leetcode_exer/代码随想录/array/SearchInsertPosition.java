@@ -1,4 +1,4 @@
-package leetcode_exer.代码随想录.array_binary;
+package leetcode_exer.代码随想录.array;
 /**
  * @author kevin
  * @create 2023-04-28-14:29

@@ -1,4 +1,4 @@
-package leetcode_exer.代码随想录.array_binary;
+package leetcode_exer.代码随想录.array;
 
 /**
  * @author kevinyi
