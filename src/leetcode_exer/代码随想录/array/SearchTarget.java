@@ -5,6 +5,7 @@ import org.junit.Test;
 /**
  * @author kevin
  * @create 2023-04-28-14:43
+ * level: EASY
  */
 public class SearchTarget {
     /**

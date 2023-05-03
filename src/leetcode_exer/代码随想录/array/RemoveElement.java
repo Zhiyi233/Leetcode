@@ -5,6 +5,7 @@ package leetcode_exer.代码随想录.array;
  * @date 2023-05-01 21:57
  * @NAME: RemoveElement
  * @PROJECT_NAME: Leetcode
+ * level: EASY
  */
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {

@@ -5,6 +5,8 @@ package leetcode_exer.代码随想录.array;
  * @date 2023-05-02 11:47
  * @NAME: RemoveDuplicate
  * @PROJECT_NAME: Leetcode
+ *
+ * level: EASY
  */
 public class RemoveDuplicate {
     public int removeDuplicates(int[] nums) {
