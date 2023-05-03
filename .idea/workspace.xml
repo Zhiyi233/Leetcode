@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/MinSubArraylen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchFLPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchFLPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SearchTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +157,7 @@
       <workItem from="1682906585792" duration="318000" />
       <workItem from="1682949350607" duration="819000" />
       <workItem from="1682998129089" duration="2060000" />
-      <workItem from="1683122088900" duration="210000" />
+      <workItem from="1683122088900" duration="1129000" />
     </task>
     <servers />
   </component>
