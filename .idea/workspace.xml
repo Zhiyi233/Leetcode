@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +46,26 @@
     <property name="project.structure.side.proportion" value="0.21363038" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.SortedSquare">
+  <component name="RunManager" selected="Application.RemoveZero">
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.RemoveElement" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.移除元素.RemoveElement" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.移除元素.RemoveZero" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +78,7 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,32 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFLPosition.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchFLPosition" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchFLPosition.testFist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchFLPosition" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchFLPosition" />
       <option name="METHOD_NAME" value="testFist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,12 +117,12 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.array.SearchTarget" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchTarget" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveZero" />
         <item itemvalue="Application.SortedSquare" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="JUnit.SearchTarget.test" />
         <item itemvalue="JUnit.SearchFLPosition.testFist" />
-        <item itemvalue="JUnit.SearchFLPosition.test" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +152,9 @@
       <workItem from="1682906585792" duration="318000" />
       <workItem from="1682949350607" duration="819000" />
       <workItem from="1682998129089" duration="2060000" />
-      <workItem from="1683122088900" duration="1129000" />
+      <workItem from="1683122088900" duration="1914000" />
+      <workItem from="1683164819740" duration="26000" />
+      <workItem from="1683211901885" duration="306000" />
     </task>
     <servers />
   </component>

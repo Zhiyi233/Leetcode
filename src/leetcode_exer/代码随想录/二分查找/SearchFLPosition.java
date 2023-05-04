@@ -1,4 +1,4 @@
-package leetcode_exer.代码随想录.array;
+package leetcode_exer.代码随想录.二分查找;
 
 
 import org.junit.Test;

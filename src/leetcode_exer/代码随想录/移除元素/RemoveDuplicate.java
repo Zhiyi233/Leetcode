@@ -1,4 +1,4 @@
-package leetcode_exer.代码随想录.array;
+package leetcode_exer.代码随想录.移除元素;
 
 /**
  * @author kevinyi
