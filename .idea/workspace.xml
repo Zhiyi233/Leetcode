@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/RemoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/滑动窗口/MinSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.21363038" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.RemoveZero">
+  <component name="RunManager" selected="JUnit.MinSubArray.test1">
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.移除元素.RemoveElement" />
       <module name="Leetcode" />
@@ -97,17 +97,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFLPosition.testFist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinSubArray.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchFLPosition" />
-      <option name="METHOD_NAME" value="testFist" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.滑动窗口" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.滑动窗口.MinSubArray" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinSubArray.test1" />
         <item itemvalue="Application.RemoveZero" />
         <item itemvalue="Application.SortedSquare" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="JUnit.SearchTarget.test" />
-        <item itemvalue="JUnit.SearchFLPosition.testFist" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +155,8 @@
       <workItem from="1683122088900" duration="1914000" />
       <workItem from="1683164819740" duration="26000" />
       <workItem from="1683211901885" duration="306000" />
+      <workItem from="1683279278997" duration="4000" />
+      <workItem from="1683341576410" duration="331000" />
     </task>
     <servers />
   </component>
