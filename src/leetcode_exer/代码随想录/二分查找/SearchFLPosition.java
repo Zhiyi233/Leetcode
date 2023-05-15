@@ -3,6 +3,7 @@ package leetcode_exer.代码随想录.二分查找;
 
 import org.junit.Test;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -93,6 +94,35 @@ public class SearchFLPosition {
         return left;
     }
 
+    public int[] searchRange2(int[] nums, int target) {
+        System.out.println("双指针分别找target在数组中的位置(5.13所写);");
+        int left = 0;
+        int right = nums.length-1;
+        boolean first = false;
+        boolean last = false;
+        int[] res = new int[2];
+
+        while(!first && left<nums.length){
+            if(nums[left]==target){
+                first = true;
+                res[0] = left;
+            }else{
+                left++;
+            }
+        }
+
+        //找最后一个target时代的位置
+        while(!last && right>0){
+            if(nums[right]==target){
+                last = true;
+                res[1] = right;
+            }else{
+                right--;
+            }
+        }
+        return res;
+    }
+
     @Test
     public void testFist(){
         int[] case1={5,7,7,8,8,10};
@@ -104,6 +134,9 @@ public class SearchFLPosition {
 
         int[] ints = searchRange(case1, target);
         System.out.println(Arrays.toString(ints));
+
+        int[] result = searchRange2(case1, target);
+        System.out.println(Arrays.toString(result));
     }
 
     /**

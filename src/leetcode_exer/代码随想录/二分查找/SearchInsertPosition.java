@@ -71,6 +71,24 @@ public class SearchInsertPosition {
         return nums.length;
     }
 
+//    public static int searchInsertMethod1(int[] nums,int target){
+//        System.out.println("5.13练习重写：");
+//        int left = 0;
+//        int right = nums.length-1;
+//
+//        while(left<=right){
+//            int mid = left+(right-left)/2;
+//            if(nums[mid]>target){
+//                right = mid-1;
+//            }else if(nums[mid]<target){
+//                left = mid+1;
+//            }else{
+//                return mid;
+//            }
+//        }
+//        return right+1;
+//    }
+
     public static void main(String[] args) {
         int[] case1 = {1,3,5,6};
         int target1 = 5;

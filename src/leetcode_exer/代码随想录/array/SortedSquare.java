@@ -1,5 +1,6 @@
 package leetcode_exer.代码随想录.array;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -9,9 +10,10 @@ import java.util.Arrays;
  * @PROJECT_NAME: Leetcode
  * level: EASY
  *
- * 给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序。
+ * 给你一个按非递减顺序 排序的整数数组 nums，返回每个数字的平方 组成的新数组要求也按非递减顺序排序。
  *
- * 示例 1： 输入：nums = [-4,-1,0,3,10] 输出：[0,1,9,16,100] 解释：平方后，数组变为 [16,1,0,9,100]，排序后，数组变为 [0,1,9,16,100]
+ * 示例 1： 输入：nums = [-4,-1,0,3,10] 输出：[0,1,9,16,100]
+ * 解释：平方后，数组变为 [16,1,0,9,100]，排序后，数组变为 [0,1,9,16,100]
  *
  * 示例 2： 输入：nums = [-7,-3,2,3,11] 输出：[4,9,9,49,121]
  *
@@ -56,9 +58,48 @@ public class SortedSquare {
         return result;
     }
 
+    public static int[] sortedSquares2(int[] nums) {
+        System.out.println("5.13所写");
+        /**
+         暴力法：很简单，直接每个数字平方，然后排序
+         排序可以自己写一个for loop来排，也可以就是用工具类
+
+         */
+//        for (int i = 0; i < nums.length; i++) {
+//            nums[i] = nums[i]*nums[i];
+//        }
+//        Arrays.sort(nums);
+//        return nums;
+
+        //双指针：平方后最大的数字只可能在一头一尾，不可能是中间的，因为是非递减顺序的排序数组
+        //left,right平方后比较大小，大的赋值给新数组的最左边index
+        //从右向左填入新的值
+
+        int left = 0;
+        int right = nums.length-1;
+        int[] res = new int[nums.length];
+        int index = nums.length-1;
+
+        while(left<=right){
+            if(nums[left]*nums[left]>nums[right]*nums[right]){
+                res[index] = nums[left]*nums[left];
+                index--;
+                left++;
+            }else {
+                res[index] = nums[right]*nums[right];
+                index--;
+                right--;
+            }
+        }
+        return res;
+    }
+
+
     public static void main(String[] args) {
         int[] nums = {-4,-1,0,3,10};
         int[] result = SortedSquare.sortedSquares(nums);
         System.out.println(Arrays.toString(result));
+        int[] result2 = sortedSquares2(nums);
+        System.out.println(Arrays.toString(result2));
     }
 }

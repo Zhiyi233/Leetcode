@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/螺旋矩阵/Question54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/螺旋矩阵/Question59.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchFLPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchFLPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +49,9 @@
     <property name="project.structure.side.proportion" value="0.21363038" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="JUnit.MinSubArray.test1">
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.移除元素.RemoveElement" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.移除元素.RemoveZero" />
+  <component name="RunManager" selected="Application.SortedSquare">
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchInsertPosition" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +68,7 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,23 +87,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubArray.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFLPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_exer.代码随想录.滑动窗口.*" />
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.滑动窗口" />
-      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.滑动窗口.MinSubArray" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchFLPosition" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFLPosition.testFist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_exer.代码随想录.二分查找.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchFLPosition" />
+      <option name="METHOD_NAME" value="testFist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTarget.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTarget.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="leetcode_exer.代码随想录.二分查找" />
       <option name="MAIN_CLASS_NAME" value="leetcode_exer.代码随想录.二分查找.SearchTarget" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinSubArray.test1" />
-        <item itemvalue="Application.RemoveZero" />
         <item itemvalue="Application.SortedSquare" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="JUnit.SearchTarget.test" />
+        <item itemvalue="JUnit.SearchFLPosition" />
+        <item itemvalue="JUnit.SearchFLPosition.testFist" />
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="JUnit.SearchTarget.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,9 @@
       <workItem from="1683341576410" duration="1075000" />
       <workItem from="1683357608468" duration="1206000" />
       <workItem from="1683599385077" duration="113000" />
-      <workItem from="1683790054841" duration="1305000" />
+      <workItem from="1683790054841" duration="1599000" />
+      <workItem from="1683859071287" duration="15000" />
+      <workItem from="1683980982004" duration="2993000" />
     </task>
     <servers />
   </component>
