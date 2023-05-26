@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d5c375-a15b-4dfc-b4bf-264a709ca15d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/linkedList/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/array/SortedSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchFLPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchFLPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_exer/代码随想录/二分查找/SearchTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +164,7 @@
       <workItem from="1683790054841" duration="1599000" />
       <workItem from="1683859071287" duration="15000" />
       <workItem from="1683980982004" duration="2993000" />
+      <workItem from="1685079661065" duration="872000" />
     </task>
     <servers />
   </component>
